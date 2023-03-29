@@ -1,0 +1,140 @@
+/* Comic Book CSS */
+body {
+    background-color: #fff;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #000;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    transform-style: preserve-3d;
+    perspective: 800px;
+  }
+  
+  header {
+    background-color: #ffcc00;
+    text-align: center;
+    padding: 50px;
+    border-bottom: 10px solid #000;
+    transform: rotateX(10deg) translateY(-20px) translateZ(40px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    font-size: 6em;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+  }
+  
+  h2 {
+    font-size: 2.5em;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+  }
+  
+  p {
+    font-size: 1.5em;
+    line-height: 1.5;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  li {
+    font-size: 1.5em;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  li:before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('comic-book-burst.png');
+    background-size: contain;
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    transform: translateY(-50%);
+  }
+  
+  ol {
+    list-style: none;
+    counter-reset: item;
+    padding-left: 0;
+  }
+  
+  ol > li {
+    counter-increment: item;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  ol > li:before {
+    content: counter(item) ".";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ffcc00;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: -45px;
+    transform: translateY(-50%);
+  }
+  
+  img {
+    width: 150px;
+    height: 150px;
+    transform: rotateY(10deg) translateZ(20px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  footer{
+    background-color: black;
+  }
+.Copyright{
+  color: white;
+  text-align: center;
+}
+  /*scrolling effect*/
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 50%, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes slideInFromLeft {
+    from {
+      transform: translate3d(-50%, 0, 0);
+    }
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes slideInFromRight {
+    from {
+      transform: translate3d(50%, 0, 0);
+    }
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  

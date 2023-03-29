@@ -1,0 +1,73 @@
+/* Reset styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main styles */
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-color: #fff;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 2em;
+  font-weight: bold;
+  color: #333;
+}
+
+main {
+  padding: 50px 0;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#socials {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+li {
+  margin: 10px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+a:hover {
+  transform: translateY(-5px);
+}
+
+i {
+  font-size: 3em;
+  margin-bottom: 10px;
+}

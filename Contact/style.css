@@ -1,0 +1,113 @@
+/* Body styles */
+body {
+  background-color: #1d1d1d;
+  color: #f8f8f8;
+  font-family: 'Comic Sans MS', cursive;
+  }
+  form {
+    color: green;
+  }
+  
+  /* Header styles */
+  header {
+  background-image: url('comic-header.jpg');
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  header h1 {
+  font-size: 4rem;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+  }
+  
+  /* Form styles */
+  form {
+  margin: 50px auto;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #f8f8f8;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  form label {
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-family: 'Comic Sans MS', cursive;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: #dedede;
+  color: #1d1d1d;
+  font-family: 'Roboto Mono', monospace;
+  }
+  
+  form input[type="submit"] {
+  background-color: #ff6b6b;
+  color: #f8f8f8;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: 'Comic Sans MS', cursive;
+  }
+  
+  form input[type="submit"]:hover {
+  background-color: #e84a4a;
+  }
+  
+  /* Footer styles */
+  footer {
+  background-color: #1d1d1d;
+  color: #f8f8f8;
+  text-align: center;
+  padding: 20px;
+  }
+  
+  footer p {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-family: 'Comic Sans MS', cursive;
+  }
+  
+  /* Nav menu */
+  nav {
+  background-color: #333;
+  padding: 10px;
+  }
+  
+  ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  li {
+  margin: 0 10px;
+  }
+  
+  a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Comic Sans MS', cursive;
+  }
+  
+  
+  
+  
